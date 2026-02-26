@@ -39,23 +39,23 @@
         .orb {
             position: absolute;
             border-radius: 50%;
-            filter: blur(1px);
-            opacity: 1;
+            filter: blur(2px);
+            opacity: 0.4;
             background: transparent;
-            border: 1px solid rgba(0,0,0,0.03);
+            border: 1px solid rgba(0,0,0,0.015);
             box-shadow:
-                0 0 0 50px transparent, 0 0 0 51px rgba(0,0,0,0.03),
-                0 0 0 100px transparent, 0 0 0 101px rgba(0,0,0,0.03),
-                0 0 0 150px transparent, 0 0 0 151px rgba(0,0,0,0.03),
-                0 0 0 200px transparent, 0 0 0 201px rgba(0,0,0,0.03),
-                0 0 0 250px transparent, 0 0 0 251px rgba(0,0,0,0.03),
-                0 0 0 300px transparent, 0 0 0 301px rgba(0,0,0,0.03),
-                0 0 0 350px transparent, 0 0 0 351px rgba(0,0,0,0.03);
+                0 0 0 50px transparent, 0 0 0 51px rgba(0,0,0,0.015),
+                0 0 0 100px transparent, 0 0 0 101px rgba(0,0,0,0.015),
+                0 0 0 150px transparent, 0 0 0 151px rgba(0,0,0,0.015),
+                0 0 0 200px transparent, 0 0 0 201px rgba(0,0,0,0.015),
+                0 0 0 250px transparent, 0 0 0 251px rgba(0,0,0,0.015),
+                0 0 0 300px transparent, 0 0 0 301px rgba(0,0,0,0.015),
+                0 0 0 350px transparent, 0 0 0 351px rgba(0,0,0,0.015);
             animation: float 60s infinite ease-in-out alternate;
         }
         .orb-1 { width: 100vw; height: 100vw; top: -30%; left: -30%; }
         .orb-2 { width: 80vw; height: 80vw; bottom: -20%; right: -20%; animation-delay: -10s; }
-        .orb-3 { width: 60vw; height: 60vw; top: 40%; left: 20%; opacity: 0.8; animation-duration: 90s; }
+        .orb-3 { width: 60vw; height: 60vw; top: 40%; left: 20%; opacity: 0.3; animation-duration: 90s; }
 
         @keyframes float {
             0% { transform: translate(0, 0) scale(1) rotate(0deg); }
